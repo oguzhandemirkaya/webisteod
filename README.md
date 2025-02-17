@@ -48,4 +48,4 @@ The site will be available at [http://localhost:3000](http://localhost:3000).
 🔴 **Live Preview**: [oguzhandemirkaya.com](http://oguzhandemirkaya.com)
 
 ## 👨‍💻 About Me
-📩 **Email**: oguzhandemirkaya@gmail.com
+📩 **Email**: oguzhan@dodbyte.com
