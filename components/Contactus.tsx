@@ -12,18 +12,16 @@ export default function ContactSection() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    // Mailto link oluştur
+   
     const mailtoLink = `mailto:oguzhan@dodbyte.com?subject=New Contact Form Submission&body=Name:%20${encodeURIComponent(
       formData.name
     )}%0AEmail:%20${encodeURIComponent(formData.email)}%0AMessage:%20${encodeURIComponent(formData.message)}`;
 
-    // Kullanıcının varsayılan mail istemcisini aç
     window.location.href = mailtoLink;
   };
 
   return (
     <div className="relative flex flex-col items-center justify-center min-h-screen overflow-hidden max-w-screen">
-      {/*  Dış Enerji Halkası */}
       <motion.div
         className="absolute flex items-center justify-center rounded-full energy-halo"
         style={{
@@ -41,7 +39,6 @@ export default function ContactSection() {
         transition={{ repeat: Infinity, duration: 8, ease: "easeInOut" }}
       />
 
-      {/*  İç Küre */}
       <motion.div
         className="absolute flex items-center justify-center rounded-full"
         style={{
@@ -56,7 +53,6 @@ export default function ContactSection() {
         transition={{ repeat: Infinity, duration: 10, ease: "linear" }}
       />
 
-      {/*  Form */}
       <motion.div
         className="relative z-10 bg-white/10 backdrop-blur-xl p-6 rounded-lg shadow-xl w-[90%] max-w-[400px] border border-white/15"
         initial={{ opacity: 0, y: 50 }}
