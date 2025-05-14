@@ -64,7 +64,6 @@ export default function ClientsCarousel() {
               delay: index * 0.05, 
             }}
           >
-            {/* ✅ Optimize edilmiş Next.js Image bileşeni */}
             <Image
               src={client.logo}
               alt={client.alt}
