@@ -1,8 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import Image from "next/image"; // ✅ Next.js Image bileşeni eklendi
-
+import Image from "next/image"; 
 interface Client {
   id: string;
   logo: string;
